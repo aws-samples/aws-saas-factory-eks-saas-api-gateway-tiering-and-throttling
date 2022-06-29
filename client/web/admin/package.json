@@ -38,7 +38,7 @@
     "is-svg": "^4.2.2",
     "jquery": "^3.6.0",
     "lite-server": "^2.6.1",
-    "moment": "^2.27.0",
+    "moment": "^2.29.2",
     "mutationobserver-shim": "^0.3.7",
     "ng2-charts": "^2.3.2",
     "ngx-bootstrap": "^6.2.0",
