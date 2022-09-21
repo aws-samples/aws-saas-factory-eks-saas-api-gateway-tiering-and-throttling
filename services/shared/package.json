@@ -48,7 +48,7 @@
     "jest-watcher": "^28.1.1",
     "jwks-rsa": "^2.0.3",
     "ora": "^6.1.2",
-    "passport": "^0.4.1",
+    "passport": "^0.6.0",
     "passport-jwt": "^4.0.0",
     "passport-local": "^1.0.0",
     "pretty-format": "^28.1.1",
