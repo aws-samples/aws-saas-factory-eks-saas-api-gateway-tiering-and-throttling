@@ -50,7 +50,7 @@ export class CdkApigatewayTsStack extends NestedStack {
       timeout: Duration.seconds(5),
       handler: 'app.lambda_handler',
       layers: [authorizerLayer],
-      code: lambda.Code.fromAsset(path.join(__dirname, '../../../lambda_authorizer')),
+      code: lambda.Code.fromAsset(path.join(__dirname, '../../../lambda_authorizer/package')),
       environment: {
         REGION: NestedStack.of(this).region,
         AVAILABILITY_ZONES: JSON.stringify(

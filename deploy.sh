@@ -31,8 +31,13 @@ git push --set-upstream cc main --force
 git remote rm cc
 git branch -u origin/main main
 
-cd cdk/root
-yarn && yarn run build 
+mkdir -p cdk/lambda_authorizer/layer/python
+cd cdk/lambda_authorizer/layer/python
+pip3 install -t . urllib3
+pip3 install -t . python-jose
+
+cd ../../../root
+yarn && yarn run build
 cdk bootstrap  
 cdk deploy \
   --parameters eksElbUrl=$ELBURL \
