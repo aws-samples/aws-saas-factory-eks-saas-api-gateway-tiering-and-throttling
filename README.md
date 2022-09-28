@@ -41,5 +41,5 @@ Once we have an API Key created for the tenant, any users associated with the te
 When a user logs into the web application and submits a request, the request will contain the API Key within the header so API Gateway can enforce usage plans and provide throttling for the requests.
 
 You can find the code that sets the API Key in the requests in:
-**/aws-saas-factory/eks-saas-api-gateway-tiering-and-throttling/client/web/application/src/app/interceptors/auth.interceptors.ts**
+**/aws-saas-factory-eks-saas-api-gateway-tiering-and-throttling/client/web/application/src/app/interceptors/auth.interceptors.ts**
 
