@@ -22,11 +22,11 @@
     "test:e2e": "jest --config ./apps/application/test/jest-e2e.json"
   },
   "dependencies": {
-    "@aws-sdk/client-codepipeline": "^3.22.0",
-    "@aws-sdk/client-cognito-identity-provider": "3.17.0",
-    "@aws-sdk/client-dynamodb": "^3.17.0",
-    "@aws-sdk/client-sts": "^3.17.0",
-    "@aws-sdk/lib-dynamodb": "^3.17.0",
+    "@aws-sdk/client-codepipeline": "^3.350.0",
+    "@aws-sdk/client-cognito-identity-provider": "3.350.0",
+    "@aws-sdk/client-dynamodb": "^3.351.0",
+    "@aws-sdk/client-sts": "^3.350.0",
+    "@aws-sdk/lib-dynamodb": "^3.351.0",
     "@aws-sdk/util-dynamodb": "^3.18.0",
     "@nestjs/common": "^9.0.0",
     "@nestjs/config": "^2.2.0",
