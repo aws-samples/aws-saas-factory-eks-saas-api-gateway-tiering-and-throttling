@@ -22,7 +22,7 @@
   },
   "dependencies": {
     "@cnakazawa/watch": "^1.0.4",
-    "aws-cdk-lib": "^2.3.0",
+    "aws-cdk-lib": "^2.80.0",
     "aws-lambda": "^1.0.7",
     "constructs": "^10.0.0",
     "jest-haste-map": "^28.1.1",
